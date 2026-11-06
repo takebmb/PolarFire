@@ -1,11 +1,11 @@
 # AN5282 PolarFire SoC 設計フロー リファレンス
 
 > 主出典: *PolarFire SoC Design Flow*, Microchip, **AN5282 / DS00005282B**（Revision B, 07/2024, © 2025）
-> ローカル: `C:\_Devs\PolarFire\doc\AN5282_PolarFire_SoC_Design_Flow.pdf`
+> ローカル: `C:\_Devs\PolarFire\doc\board\AN5282_PolarFire_SoC_Design_Flow.pdf`
 > 副出典（§9〜§11）: *PolarFire SoC Discovery Kit Reference Design Generation Tcl Scripts - Libero SoC v2025.2+*（GitHub README）
-> ローカル: `C:\_Devs\PolarFire\doc\polarfire-soc-discovery-kit-reference-design-README.md`
+> ローカル: `C:\_Devs\PolarFire\doc\board\polarfire-soc-discovery-kit-reference-design-README.md`
 
-> **範囲の注意**: AN5282 本文が扱うのは **ファブリックのみの AND ゲート設計**（プロジェクト作成 → SmartDesign → 合成 → ピン割当 → Run PROGRAM Action → 動作確認 → 修正）だけである。**MSS Configurator / SoftConsole / HSS / eNVM は AN5282 には記載がない**ため、§9〜§11 はリファレンスデザイン README の記述でまとめた。**SPI フラッシュへの書き込み手順は doc/ 内のどの資料にも記載がない**（§12）。
+> **範囲の注意**: AN5282 本文が扱うのは **ファブリックのみの AND ゲート設計**（プロジェクト作成 → SmartDesign → 合成 → ピン割当 → Run PROGRAM Action → 動作確認 → 修正）だけである。**MSS Configurator / SoftConsole / HSS / eNVM は AN5282 には記載がない**ため、§9〜§11 はリファレンスデザイン README の記述でまとめた。**SPI フラッシュへの書き込み手順は doc/board/ 内のどの資料にも記載がない**（§12）。
 
 ---
 
@@ -281,7 +281,7 @@ boot mode 0 の引数例（原文どおり）:
 | FlashPro Express ジョブ（.job） | Tcl 引数 `EXPORT_FPE` / `EXPORT_FPE:PATH` | README |
 | ビットストリームの design version / silicon signature | `DESIGN_VERSION:VERSION`（16 bit）/ `SILICON_SIGNATURE:SIGNATURE`（既定 `D15C0417`） | README |
 | eNVM | §10.5（Libero）/ §10.4（SoftConsole） | README |
-| **SPI フラッシュ** | **doc/ 内の AN5282・AN5165・QSG・Embedded SW UG・README のいずれにも手順の記載なし** | — |
+| **SPI フラッシュ** | **doc/board/ 内の AN5282・AN5165・QSG・Embedded SW UG・README のいずれにも手順の記載なし** | — |
 
 > SPI フラッシュ経由のプログラミング（Auto Update / IAP 等）が必要な場合は、User Guide 本体（skill の chapters/）、回路図（[schematic-power.md](schematic-power.md) ほか）、MSS TRM（skill polarfire-soc-mss）、または Libero の Configure Design Initialization Data and Memories の SPI Flash タブ等の公式資料を別途確認すること (原文外)。
 

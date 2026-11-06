@@ -8,7 +8,7 @@ argument-hint: [topic, connector/jumper name, pin, or chapter number]
 
 # PolarFire SoC Discovery Kit（ボード）
 
-MPFS-DISCO-KIT REV 2（シルク SEP 2023）、デバイス MPFS095T-1FCSG325E。原本は `C:\_Devs\PolarFire\doc\`。
+MPFS-DISCO-KIT REV 2（シルク SEP 2023）、デバイス MPFS095T-1FCSG325E。原本は `C:\_Devs\PolarFire\doc\board\`。
 
 ## 使い方
 
@@ -16,6 +16,7 @@ MPFS-DISCO-KIT REV 2（シルク SEP 2023）、デバイス MPFS095T-1FCSG325E�
 - 資料どうしが食い違うときは **回路図 > UG > その他** の順で信頼し、食い違いがあることを回答に書く。食い違いの一覧は [references/sources.md §4](references/sources.md)
 - `[推定]` の付いた信号名（chapters/）は回路図と照合済み（[schematic-verification.md](references/schematic-verification.md)）
 - MSS の内部（アドレス、FIC、割り込み、ペリフェラルのレジスタ）は skill **polarfire-soc-mss** を使う
+- Libero の操作（PDC の構文、I/O 規格の属性、SDC、Tcl、SmartDebug、FlashPro Express の詳細）は skill **libero-soc-tools** を使う
 
 ## Core
 

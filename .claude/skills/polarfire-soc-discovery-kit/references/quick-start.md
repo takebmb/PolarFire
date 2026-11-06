@@ -1,7 +1,7 @@
 # Quick Start Guide リファレンス
 
 > 出典: *PolarFire SoC Discovery Kit Quickstart Guide*, Microchip, **DS50003565J**（© 2026, Online Reference）
-> ローカル: `C:\_Devs\PolarFire\doc\PolarFire_SoC_Discovery_Kit_Quick_Start_Guide.pdf`
+> ローカル: `C:\_Devs\PolarFire\doc\board\PolarFire_SoC_Discovery_Kit_Quick_Start_Guide.pdf`
 > 補足出典は各所に明記（AN5165 = DS00005165D、AN5282 = DS00005282B、Embedded SW UG = GitHub md）。
 
 ---

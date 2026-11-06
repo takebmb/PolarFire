@@ -8,7 +8,7 @@ argument-hint: [topic, peripheral, register, or address]
 
 # PolarFire SoC MSS（デバイス）
 
-出典: PolarFire SoC MSS Technical Reference Manual DS60001702S Rev S（06/2026, 164 p）。原本 `C:\_Devs\PolarFire\doc\PolarFire_SoC_FPGA_MSS_Technical_Reference_Manual.pdf`（パスワード保護付き。図は `pdftoppm` で画像にして確認）。
+出典: PolarFire SoC MSS Technical Reference Manual DS60001702S Rev S（06/2026, 164 p）。原本 `C:\_Devs\PolarFire\doc\device\PolarFire_SoC_FPGA_MSS_Technical_Reference_Manual.pdf`（パスワード保護付き。図は `pdftoppm` で画像にして確認）。
 
 ## 使い方
 

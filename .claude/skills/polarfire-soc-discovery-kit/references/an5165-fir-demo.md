@@ -1,7 +1,7 @@
 # AN5165 DSP FIR Filter デモ リファレンス
 
 > 出典: *PolarFire SoC FPGA DSP FIR Filter Demo Application Note*, Microchip, **AN5165 / DS00005165D**（Revision D, 08/2026, "Draft Application Note", © 2026）
-> ローカル: `C:\_Devs\PolarFire\doc\AN5165_PolarFire_SoC_DSP_FIR_Filter.pdf`
+> ローカル: `C:\_Devs\PolarFire\doc\board\AN5165_PolarFire_SoC_DSP_FIR_Filter.pdf`
 > デモ ZIP（約 244MB）は未取得。ZIP 内のファイル名は AN 本文の記載のみに基づく。
 
 Discovery Kit の**工場出荷時（箱出し）に書き込まれているデザイン**がこの FIR デモ（Embedded SW UG / リファレンスデザイン README による）。

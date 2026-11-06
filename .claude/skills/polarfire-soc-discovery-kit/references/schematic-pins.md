@@ -1,6 +1,6 @@
 # 回路図: LED・スイッチ・ボタン / Bank 0・1 全ピン表（PDC 用）/ DDR4
 
-> 出典: PolarFire SoC Discovery Kit Schematics Rev2（DVP-100-000578-002, 2023-09-04, 14 sheets, `C:/_Devs/PolarFire/doc/PolarFire_SoC_Discovery_Kit_Rev2_Schematics.pdf`）。ネット名・部品番号・ボール番号は回路図の表記のまま。読み取れなかった箇所は **要確認**。
+> 出典: PolarFire SoC Discovery Kit Schematics Rev2（DVP-100-000578-002, 2023-09-04, 14 sheets, `C:/_Devs/PolarFire/doc/board/PolarFire_SoC_Discovery_Kit_Rev2_Schematics.pdf`）。ネット名・部品番号・ボール番号は回路図の表記のまま。読み取れなかった箇所は **要確認**。
 
 ## 5. LED / スイッチ / ボタンと FPGA ピン
 

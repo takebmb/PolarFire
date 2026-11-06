@@ -1,8 +1,8 @@
 # 組込みソフトウェア（HSS / Linux / ベアメタル）リファレンス
 
 > 主出典: *MPFS Discovery Kit Embedded Software User Guide*（GitHub `polarfire-soc/polarfire-soc-documentation`、文書番号・Rev なし）
-> ローカル: `C:\_Devs\PolarFire\doc\mpfs-discovery-kit-embedded-software-user-guide.md`
-> 副出典: リファレンスデザイン README（`C:\_Devs\PolarFire\doc\polarfire-soc-discovery-kit-reference-design-README.md`）、QSG DS50003565J
+> ローカル: `C:\_Devs\PolarFire\doc\board\mpfs-discovery-kit-embedded-software-user-guide.md`
+> 副出典: リファレンスデザイン README（`C:\_Devs\PolarFire\doc\board\polarfire-soc-discovery-kit-reference-design-README.md`）、QSG DS50003565J
 >
 > 注: Embedded SW UG 本文は短く、Yocto のビルド手順・`.wic` の書込み手順・HSS の詳細は**記載がない**。それらは外部文書（Updating MPFS Kit、Yocto BSP リポジトリ）への参照のみ。本書で補った部分は (原文外) と明記する。
 
@@ -94,7 +94,7 @@ USB ブリッジは "Embedded FlashPro5"（VID `1514` / PID `2008`）として�
 | `03` | D | シリアル | `/dev/ttyUSB-FlashPro5D` |
 
 - Windows では "USB FP5 Serial Converter D" の Location を持つ COM ポートが存在すればドライバ正常（QSG。FIR デモはこのポートを使う流れ）。
-- B/C/D と MMUART0/1/4 の厳密な対応は doc/ 内の資料に明記がない。「1st COM = MMUART1, 2nd COM = MMUART4」の記述から B = MMUART1, C = MMUART4, D = MMUART0（ファブリック経由、FIR デモでは CoreUART）と推定される (原文外)。回路図の FT4232H Connection ページで確認済み（次行）。
+- B/C/D と MMUART0/1/4 の厳密な対応は doc/board/ 内の資料に明記がない。「1st COM = MMUART1, 2nd COM = MMUART4」の記述から B = MMUART1, C = MMUART4, D = MMUART0（ファブリック経由、FIR デモでは CoreUART）と推定される (原文外)。回路図の FT4232H Connection ページで確認済み（次行）。
 - **回路図での確認結果**: FT4232H の A = JTAG（eFP5）、B = MMUART_1（Bank 2 F2/F4）、C = MMUART_4（Bank 2 G2/H4）、D = ファブリック Bank 0（W21/Y21、U3 レベルシフタ経由）。README の「MMUART0 = Fabric 経由」は、リファレンスデザインで MMUART0 をファブリック経由で D チャネルへ出す構成と整合する（ピン直結ではない） → [schematic-verification.md](schematic-verification.md)
 
 ---

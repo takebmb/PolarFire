@@ -1,11 +1,11 @@
 # 資料一覧と公式 URL
 
-> ローカル資料フォルダ: `C:\_Devs\PolarFire\doc\`
+> ローカル資料フォルダ: `C:\_Devs\PolarFire\doc\board\`
 > この skill の各ファイルがどの資料に基づくかの対応表。文書番号・Rev はローカル原本の表記による（不明なものは "—"）。
 
 ---
 
-## 1. doc/ 内の資料
+## 1. doc/board/ 内の資料
 
 | # | ローカルファイル | タイトル | 文書番号 / Rev | skill 内の参照先 | 公式 URL |
 |---|---|---|---|---|---|
@@ -13,7 +13,7 @@
 | 2 | `PolarFire_SoC_Discovery_Kit_Quick_Start_Guide.pdf` | PolarFire SoC Discovery Kit Quickstart Guide | DS50003565J | [quick-start.md](quick-start.md) | https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ProductDocuments/ProductBrief/50003565_MPFS-Disco-Kit_QuickStart_Guide.pdf |
 | 3 | `PolarFire_SoC_Discovery_Kit_Rev2_Schematics.pdf` | PolarFire SoC Discovery Kit Schematics（Part Number: MPFS-DISCO-KIT, Rev2） | SCH_090423_01 | [schematic-power.md](schematic-power.md) ほか schematic-*.md | https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ProductDocuments/ReferenceManuals/PolarFire_SoC_Discovery_Kit_Rev2_SCH_090423_01.pdf |
 | 4 | `PolarFire_SoC_Discovery_Kit_Rev2_PCB_091923.brd` | PolarFire SoC Discovery Kit Board File（Cadence Allegro ボードファイル、約 10MB） | Rev2, PCB_091923 | **skill では未解析** | https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ProductDocuments/BoardDesignFiles/PolarFire_SoC_Discovery_Kit_Rev2_23_0954_PCB_091923.brd |
-| 5 | `PolarFire_SoC_FPGA_MSS_Technical_Reference_Manual.pdf` | PolarFire SoC MSS Technical Reference Manual | DS60001702S | skill `polarfire-soc-mss`（[SKILL.md](../../polarfire-soc-mss/SKILL.md)） | https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ProductDocuments/ReferenceManuals/PolarFire_SoC_FPGA_MSS_Technical_Reference_Manual_VC.pdf |
+| 5 | `../device/PolarFire_SoC_FPGA_MSS_Technical_Reference_Manual.pdf`（`doc/device/`） | PolarFire SoC MSS Technical Reference Manual | DS60001702S | skill `polarfire-soc-mss`（[SKILL.md](../../polarfire-soc-mss/SKILL.md)） | https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ProductDocuments/ReferenceManuals/PolarFire_SoC_FPGA_MSS_Technical_Reference_Manual_VC.pdf |
 | 6 | `AN5282_PolarFire_SoC_Design_Flow.pdf` | PolarFire SoC Design Flow (AN5282) | DS00005282B (Rev B, 07/2024) | [an5282-design-flow.md](an5282-design-flow.md) | https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ApplicationNotes/ApplicationNotes/PolarFire_SoC_Design_Flow_AN5282.pdf |
 | 7 | `AN5165_PolarFire_SoC_DSP_FIR_Filter.pdf` | PolarFire SoC FPGA DSP FIR Filter Demo Application Note (AN5165) | DS00005165D (Rev D, 08/2026, Draft) | [an5165-fir-demo.md](an5165-fir-demo.md) | https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/ApplicationNotes/ApplicationNotes/PolarFire_SoC_FPGA_DSP_FIR_Filter_AN5165.pdf |
 | 8 | `mpfs-discovery-kit-embedded-software-user-guide.md` | MPFS Discovery Kit Embedded Software User Guide | — (GitHub md) | [embedded-software.md](embedded-software.md) | https://github.com/polarfire-soc/polarfire-soc-documentation/blob/master/reference-designs-fpga-and-development-kits/mpfs-discovery-kit-embedded-software-user-guide.md |

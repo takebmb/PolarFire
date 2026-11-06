@@ -1,6 +1,6 @@
 # 回路図: シート一覧 / 電源 / Bank 電圧 / 主要部品 / ジャンパ / クロック・リセット
 
-> 出典: PolarFire SoC Discovery Kit Schematics Rev2（DVP-100-000578-002, 2023-09-04, 14 sheets, `C:/_Devs/PolarFire/doc/PolarFire_SoC_Discovery_Kit_Rev2_Schematics.pdf`）。ネット名・部品番号・ボール番号は回路図の表記のまま。読み取れなかった箇所は **要確認**。
+> 出典: PolarFire SoC Discovery Kit Schematics Rev2（DVP-100-000578-002, 2023-09-04, 14 sheets, `C:/_Devs/PolarFire/doc/board/PolarFire_SoC_Discovery_Kit_Rev2_Schematics.pdf`）。ネット名・部品番号・ボール番号は回路図の表記のまま。読み取れなかった箇所は **要確認**。
 
 ## 0. 出典
 
@@ -11,8 +11,8 @@
 | Rev | 2.0 |
 | 日付 | Monday, September 04, 2023 |
 | ページ数 | 14 |
-| ローカルパス | `C:\_Devs\PolarFire\doc\PolarFire_SoC_Discovery_Kit_Rev2_Schematics.pdf` |
-| 照合に使った資料 | `C:\_Devs\PolarFire\doc\PolarFire_SoC_FPGA_Discovery_Kit_User_Guide.pdf`（DS50003630E） |
+| ローカルパス | `C:\_Devs\PolarFire\doc\board\PolarFire_SoC_Discovery_Kit_Rev2_Schematics.pdf` |
+| 照合に使った資料 | `C:\_Devs\PolarFire\doc\board\PolarFire_SoC_FPGA_Discovery_Kit_User_Guide.pdf`（DS50003630E） |
 
 PDF はパスワード保護されているため、Read ツールでは開けない。`pdftoppm -r 300` で画像にしてから目視で読んだ。
 

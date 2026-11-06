@@ -1,7 +1,7 @@
 # Discovery Kit リファレンスデザイン（Tcl 生成スクリプト）リファレンス
 
 > 出典: *PolarFire SoC Discovery Kit Reference Design Generation Tcl Scripts - Libero SoC v2025.2+*（GitHub `polarfire-soc/polarfire-soc-discovery-kit-reference-design` の README。文書番号・Rev なし）
-> ローカル: `C:\_Devs\PolarFire\doc\polarfire-soc-discovery-kit-reference-design-README.md`
+> ローカル: `C:\_Devs\PolarFire\doc\board\polarfire-soc-discovery-kit-reference-design-README.md`
 > リポジトリ: `https://github.com/polarfire-soc/polarfire-soc-discovery-kit-reference-design`
 > 注: QSG（DS50003565J）はタグ `releases/tag/2024.04` を案内しているが、取得した README は **v2025.2+** 版。タグにより対応 Libero と引数が異なる可能性がある (原文外)。
 
